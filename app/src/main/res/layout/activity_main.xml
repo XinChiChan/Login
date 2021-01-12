@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入姓名"
+        android:textSize="20sp"
+        android:inputType="text"/>
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/boy">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/Rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/girl">
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:onClick="enter">
+
+    </Button>
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</LinearLayout>

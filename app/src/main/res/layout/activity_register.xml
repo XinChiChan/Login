@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="註冊"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="36sp"
+        android:textColor="@color/teal_200">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="@string/User">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/UserName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:hint="請輸入帳號"
+        android:inputType="text">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/password"
+        android:textSize="15sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入密碼"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPassword">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Repassword"
+        android:textSize="15sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <EditText
+        android:id="@+id/RePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入密碼"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPassword">
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+
+        <Button
+            android:id="@+id/Enter1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
